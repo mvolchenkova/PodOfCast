@@ -257,3 +257,47 @@ a{
     left: 280px;
     margin-top: -70px;
 }
+.fifthContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+}
+.card{
+    width: 373px;
+}
+.card>p{
+    width: 350px;
+}
+.cardName{
+    font-size: 1.416em;
+    font-weight: bold;
+}
+.Membership{
+    font-weight: bold;
+    font-size: 3.706em;
+    margin: 0;
+}
+.fifthContainer>div{
+    padding-bottom: 80px;
+}
+.pricingButton{
+    background-color:black;
+    color:white;
+    font-size: 0.875em;
+    border-radius: 8px;
+    border: none;
+    padding: 18px 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
