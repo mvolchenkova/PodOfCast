@@ -420,7 +420,7 @@ a{
     align-items:center;
     justify-content: center;
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
 }
 .seventhContainer>div>p{
     text-align: center;
@@ -431,6 +431,8 @@ a{
     align-items: center;
     justify-content: center;
     column-gap:20px;
+    row-gap: 20px;
+    flex-wrap: wrap;
 }
 .sponsorCards{
     display: flex;
@@ -506,4 +508,62 @@ a{
 }
 .spDescr>p{
     padding-left: 40px;
+}
+.eighthContainer{
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+.articles{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:solid 2px;
+    border-radius: 8px;
+    padding: 10px;
+    width: min-content;
+}
+.article1{
+    box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 1);
+}
+.HR2{
+    color:black;
+    width: 100%;
+}
+.article>div>p{
+    width: 100%;
+}
+.articlesDiv{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+.article>div>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.article>div>div>div>button{
+    background-color:transparent;
+    border: solid 1px black;
+    border-radius:4px;
+    padding: 7px 13px;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+.browseAllDiv{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 50px;
 }
