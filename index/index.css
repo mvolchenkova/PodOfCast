@@ -414,3 +414,96 @@ a{
     border: none;
     box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
 }
+.seventhContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.seventhContainer>div>p{
+    text-align: center;
+}
+.allSponsorCards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap:20px;
+}
+.sponsorCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 373px;
+    gap:20px;
+}
+.spCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 2px;
+    border-radius: 8px;
+    gap:65px;
+    padding: 55px 40px 20px 40px;
+}
+.mostPop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:30px;
+}
+.spDescr{
+    border-radius:8px;
+    border: solid 2px;
+    width: 373px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.sponsorName{
+    font-size: 2.291em;
+    font-weight: bold;
+    margin: 0;
+}
+.mostPopular{
+    font-size: 0.75em;
+    background-color: rgb(205,70,49);
+    color:white;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.spLor{
+    font-size: 0.875em;
+}
+.spFam{
+    background-color:rgb(247,237,232);
+    border-color: rgb(205,70,49);
+}
+.subscribeButton2{
+    background-color:black;
+    color:white;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 40px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.subDiv{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.price{
+    font-size: 1.416em;
+    font-weight: bold;
+    color:rgb(205,70,49);
+}
+.spDescr>ul{
+    padding-left: 60px;
+}
+.spDescr>p{
+    padding-left: 40px;
+}
