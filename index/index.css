@@ -263,6 +263,7 @@ a{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 150px;
 }
 .cards{
     display: flex;
@@ -299,5 +300,117 @@ a{
     border: none;
     padding: 18px 30px;
     font-weight: bold;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.sixthContainer{
+    background-color: rgb(247,237,232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 120px;
+    margin-top: -80px;
+    padding-bottom: 130px;
+}
+.cards1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    background-color:white;
+    border-radius:12px;
+    padding: 10px;
+    border:solid 2px black;
+    height: 290px;
+    justify-content: space-between;
+}
+.subDiv{
+    display: flex;
+    flex-direction: row;
+}
+.hosted{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.hostedDiv{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    width: 98%;
+}
+.hostedImg{
+    width: 46px;
+    height: 26px;
+}
+.card1TextDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.cov{
+    width: 166px;
+    height: 166px;
+}
+.eps{
+    font-weight: bold;
+    color: rgb(205,70,49);
+    width: 90%;
+    text-align: start;
+    padding-left: 20px;
+}
+.card1Name{
+    font-size: 1.416em;
+    font-weight: bold;
+    color: rgb(205,70,49);
+    width: 90%;
+    text-align: start;
+    padding-left: 20px;
+}
+.card1Name1{
+    font-size: 1.416em;
+    font-weight: bold;
+    width: 90%;
+    text-align: start;
+    padding-left: 20px;
+}
+.hostedDiv>div>button{
+    background-color:transparent;
+    border: solid 1px black;
+    border-radius:4px;
+    padding: 7px 13px;
+    font-size: 0.75em;
+    font-weight: 500;
+}
+.HR1{
+    width: 90%;
+    color:black;
+}
+.cardLorem{
+    padding-left: 20px;
+    width: 90%;
+    text-align: start;
+}
+.card135{
+    box-shadow: 10px 10px 0px 0px rgb(129,173,200);
+}
+.browseButton{
+    background-color:black;
+    color:white;
+    border-radius: 8px;
+    padding: 18px 35px;
+    font-weight: bold;
+    border: none;
     box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
 }
