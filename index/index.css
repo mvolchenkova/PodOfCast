@@ -622,3 +622,42 @@ a{
     margin-top: 15px;
     right: 0;
 }
+footer{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.Reserved{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.footerLogoDiv{
+    display: flex;
+    align-items:flex-end;
+    gap:15px;
+}
+.footerLogoDiv>p{
+    margin: 0;
+}
+.footerTopDivs{
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+.HR3{
+    color:black;
+    width:100%;
+}
+.logoDiv{
+    width: 25%;
+}
