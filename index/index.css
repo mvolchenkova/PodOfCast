@@ -148,6 +148,9 @@ a{
     justify-content: center;
     margin-top: -75px;
 }
+.scribbleImg{
+    z-index: 1;
+}
 .thirdContainer{
     display: flex;
     align-items:center;
@@ -200,6 +203,7 @@ a{
     align-items:center;
     gap:10px;
 }
+
 .p{
     width: 40px;
 }
@@ -244,6 +248,7 @@ a{
     font-size: 3.688em;
     font-weight: bold;
     margin: 0;
+    z-index: 2;
 }
 .platform{
     text-align: center;
@@ -256,6 +261,7 @@ a{
     position: absolute;
     left: 280px;
     margin-top: -70px;
+    z-index: 0;
 }
 .fifthContainer{
     display: flex;
@@ -288,6 +294,9 @@ a{
     font-weight: bold;
     font-size: 3.706em;
     margin: 0;
+}
+.membLor{
+    font-size: 1.416em;
 }
 .fifthContainer>div{
     padding-bottom: 80px;
@@ -577,7 +586,8 @@ a{
     padding-top: 130px;
     padding-bottom: 150px;
     border-bottom: solid 1px black;
-
+    position: relative;
+    overflow: hidden;
 }
 .beta{
     border:solid 1px;
@@ -611,16 +621,17 @@ a{
 .phone1{
     position: absolute;
     left: 0;
-    width: 373px;
-    height: 600px;
-    margin-top: 220px;
+    width: auto;
+    height: 800px;
+    left: -50px;
+    margin-bottom: -850px;
 }
 .phone2{
     position: absolute;
-    width: 373px;
-    height: 808px;
-    margin-top: 15px;
-    right: 0;
+    width: auto;
+    height: 800px;
+    margin-bottom: -366px;
+    right: -300px;
 }
 footer{
     padding: 10%;
@@ -628,12 +639,19 @@ footer{
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    z-index: 5;
+    background-color: white;
+    position: relative;
 }
 .Reserved{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+}
+.Reserved>p{
+    margin: 0;
 }
 .line{
     display: flex;
@@ -653,6 +671,7 @@ footer{
     display: flex;
     gap: 70px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .HR3{
     color:black;
@@ -660,4 +679,7 @@ footer{
 }
 .logoDiv{
     width: 25%;
+}
+.menuDiv{
+    display: none;
 }

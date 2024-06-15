@@ -1,0 +1,188 @@
+@media screen and (max-width: 1150px) {
+    .justLaunched{
+        font-size: 1.12em;
+        width: 20%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .available{
+        font-size: 2.5em;
+        width: 30%;
+    }
+   .phone1{
+        height: 600px;
+   }
+   .phone2{
+    height: 600px;
+    right: -200px;
+   }
+}
+@media screen and (max-width: 1000px) {
+    .starImg{
+        width: 70px;
+        height: auto;
+        margin: 0;
+    }
+    .swirlImg{
+        display: none;
+    }
+    .talk{
+        font-size: 1.875em;
+    }
+    .headerButtons{
+        display: none;
+    }
+    .menuDiv{
+        display: flex;
+    }
+}
+@media screen and (max-width: 768px) {
+    .headerLinks, .Sparkle{
+        display:none;
+    }
+    .ill>img{
+        width: 180px;
+    }
+    .illDiv{
+        gap: 0;
+    }
+    .star4, .vec4{
+        width: 70px;
+    }
+    .quote{
+        width: 70%;
+        font-size: 0.7em;
+    }
+    .slider1{
+        padding-left: 50px;
+    }
+    .listeners, .Membership{
+        font-size: 2.6em;
+    }
+    .card1{
+        width: 330px;
+    }
+    .card1Name, .card1Name1{
+        font-size: 0.9em;
+    }
+    .cardLorem{
+        font-size: 0.7em;
+    }
+    .article>div>img{
+        width: 260px;
+    }
+    .phone1{
+        display: none;
+    }
+   .phone2{
+    display: none;
+   }
+   .available, .justLaunched{
+    width: 70%;
+   }
+   .ninthContainer{
+    padding-bottom: 50px;
+   }
+   .largeText{
+    font-size: 3.5em;
+   }
+   .firstText{
+    gap:15px;
+    z-index: 2;
+   }
+   .firstContainer{
+    height: 400px;
+   }
+   .slideElement>img{
+    width: 200px;
+   }
+   .slider{
+    padding-top: 50px;
+   }
+   .supportedBy>img{
+    width: 150px;
+   }
+   .slider1>img{
+    width: 330px;
+}
+} 
+@media screen and (max-width: 400px) {
+    .star4, .vec4{
+        display: none;
+    }
+    .quote{
+        padding: 20px;
+        font-size: 0.5em;
+        gap:20px;
+    }
+    .ill>img{
+        width: 100px;
+    }
+    .ill>p{
+        font-size: 0.8em;
+    }
+    .quoteDiv{
+        padding-bottom: 100px;
+    }
+    .listeners{
+        font-size: 2em;
+    }
+    .platform{
+        font-size: 1em;
+    }
+    .slider1>img{
+        width: 250px;
+    }
+    .sliderButtons1{
+        padding-left: 50px;
+    }
+    .Membership{
+        font-size: 1.9em;
+    }
+    .membLor{
+        font-size: 1em;
+    }
+    .fifthContainer>div{
+        padding-bottom: 50px;
+    }
+    .card{
+        width: min-content;
+    }
+    .card>p{
+        width: 250px;
+    }
+    .card1{
+        width: 260px;
+    }
+    .card1Name, .card1Name1{
+        font-size: 0.7em; 
+       padding-left: 10px;
+
+    }
+    .cardLorem{
+        font-size: 0.6em;
+        padding-left: 10px;
+    }
+    .cards1{
+        padding-bottom: 50px;
+    }
+    .spCard{
+        width: 250px;
+        padding: 30px 15px 10px 15px;
+    }
+    .subscribeButton2{
+        padding: 10px 20px;
+    }
+    .sponsorName{
+        font-size: 1.6em;
+    }
+    .spDescr{
+        width: 280px;
+    }
+    .spDescr>ul{
+        padding-left: 40px;
+    }
+    .sponsorCards{
+        width: 320px;
+    }
+}
