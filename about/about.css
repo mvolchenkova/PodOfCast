@@ -197,3 +197,53 @@ a{
 .HR{
     width: 90%;
 }
+.fourthContainer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.rectangles{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 98%;
+}
+.rect{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    width: 570px;
+    height: 490px;
+    border:solid 1px black;
+    border-radius:8px;
+    box-shadow: 9px 9px 0px 0px rgba(0,0,0,1);
+    padding: 15px;
+}
+.miniImgDiv{
+    display: flex;
+}
+.rectElem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap:150px;
+}
+.rectText{
+    padding-left: 20px;
+}
+.followLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10px
+}
+.followMe{
+    font-size: 0.75em;
+}
