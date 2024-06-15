@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.AlternatesFont{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color:rgb(247,237,232);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.headerLinks{
+    font-weight: bold;
+    display: flex;
+    gap:60px;
+}
+.headerButtons{
+    display:flex;
+    font-size: 0.875em;
+    gap:20px;
+}
+.recentButton{
+    background-color:transparent;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-weight: bold;
+}
+.subscribeButton{
+    background-color:black;
+    color:white;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 20px;
+    font-weight: bold;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.moreLink{
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.logoLinks{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap:120px;
+}
+.menuDiv{
+    display: none;
+}
+.firstContainer{
+    background-color:rgb(247,237,232);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 600px;
+    padding-bottom: 120px;
+}
+.starImg{
+    position: absolute;
+    height: 216px;
+    margin-top: 150px;
+    right: 50px;
+}
+.swirlImg{
+    position: absolute;
+    width: 630px;
+    height: 593px;
+    left:-150px;
+}
+.firstText{
+    margin-top: 50px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    gap:40px;
+}
+.largeText{
+    font-size: 6em;
+    margin:0;
+    font-weight: bold;
+    text-align: center;
+}
+.orangeText{
+    text-align: center;
+    color:rgb(205,70,49);
+}
+.miniText{
+    width: 58%;
+    text-align: center;
+}
+.subscribeButton1{
+    background-color:black;
+    color:white;
+    border-radius: 8px;
+    border: none;
+    padding: 18px 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.becomeSponsorButton{
+    background-color:transparent;
+    border-radius: 8px;
+    border: solid 2px ;
+    padding: 18px 30px;
+    font-weight: bold;
+    box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.3);
+}
+.sponsorButtonsDiv{
+    display: flex;
+    gap:20px;
+}
+.k{
+    color:rgb(205,70,49);
+}
+.textAmount{
+    display: flex;
+    flex-direction: row;
+    font-size: 3.706em;
+    font-weight: bold;
+}
+.textAmount>p{
+    margin: 0;
+}
+.secondContainer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    margin-top: -120px;
+    flex-wrap: wrap;
+    width: 99%;
+}
+.amountCard{
+    background-color:white;
+    border-radius:8px;
+    border: solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 373px;
+    height: 235px;
+    gap: 20px;
+    box-shadow: 7px 7px 0px 0px rgba(205,70,49,1);
+}
+.listeners{
+    text-align: center;
+    font-size: 3.688em;
+    font-weight: bold;
+    margin: 0;
+    z-index: 2;
+}
+.platform{
+    text-align: center;
+    font-size: 1.416em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.thirdContainer{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.thirdContainer>img{
+    width: 87%;
+}

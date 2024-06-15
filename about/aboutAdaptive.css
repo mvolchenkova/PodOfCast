@@ -1,0 +1,21 @@
+@media screen and (max-width: 1000px) {
+    .headerButtons{
+        display: none;
+    }
+    .menuDiv{
+        display: flex;
+    }
+    .starImg{
+        width: 70px;
+        height: auto;
+        margin: 0;
+    }
+    .swirlImg{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .headerLinks, .Sparkle{
+        display:none;
+    }
+}
