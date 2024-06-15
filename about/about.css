@@ -178,3 +178,22 @@ a{
 .thirdContainer>img{
     width: 87%;
 }
+.lorems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    gap:50px;
+}
+.lorem{
+    width: 620px;
+}
+.history{
+    font-size: 2.291em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.HR{
+    width: 90%;
+}
