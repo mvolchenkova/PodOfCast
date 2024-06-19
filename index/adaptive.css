@@ -37,9 +37,7 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .headerButtons{
-        display: none;
-    }
+   
     .headerLinks, .Sparkle{
         display:none;
     }
