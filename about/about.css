@@ -247,3 +247,60 @@ a{
 .followMe{
     font-size: 0.75em;
 }
+.fifthContainer{
+    background-color:rgb(247,237,232);
+    margin-top: 130px;
+    padding-top: 100px;
+    overflow-x: hidden;
+    padding-bottom: 100px;
+}
+.sliderButtons1{
+    display: flex;
+    padding-left:150px;
+    gap:20px;
+    padding-top: 50px;
+}
+.textOur{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    padding-left: 590px;
+    gap:20px;
+}
+.sixthContainer{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formWithImg{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+}
+.inputGroups{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.inputGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.getInTouch{
+    font-size: 3.706em;
+}
+.sendMes{
+    font-size: 1.416em;
+}
