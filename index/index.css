@@ -685,7 +685,7 @@ footer{
     z-index: 3;
 }
 .burger1000back{
-    width:190%;
+    width:70%;
     background-color: rgb(200, 224, 255);
     display: flex;
     align-items: center;
@@ -703,7 +703,7 @@ footer{
     align-items:center;
     justify-content: center;
     top:150px;
-    width: 30%;
+    width: 100%;
     z-index: 3;
 }
 .back{
@@ -715,7 +715,7 @@ footer{
     display: none;
 }
 .burger768back{
-    width:190%;
+    width:70%;
     background-color: rgb(200, 224, 255);
     display: flex;
     align-items: center;
@@ -733,6 +733,6 @@ footer{
     align-items:center;
     justify-content: center;
     top:150px;
-    width: 30%;
+    width: 100%;
     z-index: 3;
 }
