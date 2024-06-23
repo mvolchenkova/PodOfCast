@@ -1,3 +1,22 @@
+@media screen and (max-width: 1150px) {
+    .justLaunched{
+        font-size: 1.12em;
+        width: 20%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .available{
+        font-size: 2.5em;
+        width: 30%;
+    }
+   .phone1{
+        height: 600px;
+   }
+   .phone2{
+    height: 600px;
+    right: -200px;
+   }
+}
 @media screen and (max-width: 1000px) {
     .headerButtons{
         display: none;
@@ -14,8 +33,42 @@
         display: none;
     }
 }
+@media screen and (max-width: 850px) {
+    .inputGroup{
+        flex-direction: column;
+    }
+    .messageInput{
+        width: 373px;
+    }
+    .messageDiv{
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        text-align: left;
+    }
+    .requiredMes1{
+        margin-left: -300px;
+    }
+}
 @media screen and (max-width: 768px) {
     .headerLinks, .Sparkle{
         display:none;
+    }
+    .phone1{
+        display: none;
+    }
+   .phone2{
+    display: none;
+   }
+   .available, .justLaunched{
+    width: 70%;
+   }
+   .seventhContainer{
+    padding-bottom: 50px;
+   }
+}
+@media screen and (max-width: 550px) {
+    .rectElem{
+        gap:50px;
     }
 }

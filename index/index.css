@@ -357,6 +357,7 @@ a{
     align-items:center;
     justify-content: space-between;
     width: 98%;
+    margin-bottom: 20px;
 }
 .hostedImg{
     width: 46px;

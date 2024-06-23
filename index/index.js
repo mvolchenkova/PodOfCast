@@ -41,3 +41,7 @@ burger.addEventListener('click', function(){
         }
     }
 });
+const recent = document.querySelector('.recentButton');
+recent.addEventListener('click', function(){
+    window.location = '../index/index.html#sixthContainer'
+})

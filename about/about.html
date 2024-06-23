@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="aboutAdaptive.css">
   </head>
   <body>
+    <div class="back"></div>
     <header class="AlternatesFont">
         <div class="logoLinks">
           <img src="../images/logo.png" alt="" class="logo" onclick="goMain()">
@@ -34,6 +35,32 @@
           </button>
         </div>
       </header>
+      <div class="burger1000">
+        <div class="burger1000back">
+          <button class="recentButton AlternatesFont">
+            RECENT EPISODES
+          </button>
+          <button class="subscribeButton AlternatesFont">
+            SUBSCRIBE
+          </button>
+        </div>
+      </div>
+      <div class="burger768 AlternatesFont">
+        <div class="burger768back">
+          <a href="">Episodes</a>
+          <a href="../about/about.html">About</a>
+          <div class="moreLink">
+            <a href="">More</a>
+            <img src="../images/Arrow - Down.png" alt="">
+          </div>
+          <button class="recentButton AlternatesFont">
+            RECENT EPISODES
+          </button>
+          <button class="subscribeButton AlternatesFont">
+            SUBSCRIBE
+          </button>
+        </div>
+      </div>
       <div class="firstContainer AlternatesFont">
         <img src="../images/Hero Shape Swirl.svg" alt="" class="swirlImg">
         <div class="firstText">
@@ -164,52 +191,139 @@
       <div class="sixthContainer AlternatesFont">
         <b class="getInTouch">Get in touch</b>
         <p class="sendMes">Send your message to us</p>
-        <hr>
         <div class="formWithImg">
-          <div>
-            <img src="../images/Vector 4.png" alt="">
-          </div>
           <div class="formDiv">
             <div>
               <form action="">
                 <div class="inputGroups">
                   <div class="inputGroup">
                     <div>
-                      <label for="">Full name</label><br>
-                    <input type="text">
+                      <div class="requiredMes">
+                        <label for="">Full name</label>
+                      <p class="red">*</p>
+                      </div>
+                      <br>
+                      <input type="text">
                     </div>
                     <div>
-                      <label for="">Email</label><br>
-                    <input type="text">
+                      <div class="requiredMes">
+                        <label for="">Email</label>
+                        <p class="red">*</p>
+                      </div>
+                     <br>
+                      <input type="text">
                     </div>
                   </div>
                   <div class="inputGroup">
                     <div>
-                      <label for="">Phone</label><br>
+                      <div class="requiredMes">
+                        <label for="">Phone</label>
+                        <p class="red">*</p>
+                      </div>
+                      <br>
                       <input type="text">
                     </div>
                     <div>
-                      <label for="">Subject</label><br>
+                      <div class="requiredMes">
+                        <label for="">Subject</label>
+                        <p class="red">*</p>
+                      </div>
+                      <br>
                       <input type="text">
                     </div>
                   </div>
                 </div>
-                <div>
-                  <label for="">Message</label><br>
-                  <input type="text">
+                <div class="messageDiv">
+                  <div class="requiredMes requiredMes1">
+                    <label for="">Message</label>
+                    <p class="red">*</p>
+                  </div>
+                  <br>
+                  <input type="text" class="messageInput">
                 </div>
               </form>
             </div>
-            <div>
-              <p>*<p>required</p></p>
-              <button class="send AlternatesFont">SEND MESSAGE</button>
-              <p>Viverra at port accumsan.<p style="color:rgb(205,70,49)"> Orci non</p></p>
+            <div class="sendMessageLine">
+              <div class="req">
+                <p class="red">*</p>
+                <p>required</p>
+              </div>
+              <button class="subscribeButton1 AlternatesFont">SEND MESSAGE</button>
+              <div class="viverra">
+                <p>Viverra at port accumsan.</p>
+                <p style="color:rgb(205,70,49)"> Orci non</p>
+              </div>
             </div>
-          </div>
-          <div>
-            <img src="../images/Shining stars.png" alt="">
           </div>
         </div>
       </div>
+      <div class="scribbleDiv">
+        <img src="../images/Scribble.png" alt="" class="scribbleImg">
+      </div>
+      <div class="seventhContainer AlternatesFont">
+        <img src="../images/phone1.png" alt="" class="phone1">
+        <img src="../images/phone2.png" alt="" class="phone2">
+        <p class="beta">BETA</p>
+        <p class="available">Available now Pod of Cast App</p>
+        <p class="justLaunched">We just launched our podcast app!</p>
+        <button class="AlternatesFont browseButton">DOWNLOAD NOW</button>
+        <p class="contentAv">Content also available on:</p>
+        <div class="logos">
+          <img src="../images/google podcast.png" alt="">
+          <img src="../images/spotify1.png" alt="">
+          <img src="../images/youtube1.png" alt="">
+        </div>
+      </div>
+      <footer>
+        <div class="footerTopDivs AlternatesFont">
+          <div class="logoDiv">
+            <div class="footerLogoDiv">
+              <img src="../images/logo.png" alt="">
+              <p>©2021.</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div>
+              <img src="../images/twitter.png" alt="">
+              <img src="../images/instagram.png" alt="">
+              <img src="../images/tiktok.png" alt="">
+            </div>
+          </div>
+          <div>
+            <p>About</p>
+            <p>Testimonials</p>
+            <p>Features</p>
+          </div>
+          <div>
+            <p>Episodes</p>
+            <p>Pricing</p>
+            <p>Blog</p>
+          </div>
+          <div>
+            <div>
+              <p>Listen to episodes on your fav platform:</p>
+              <div>
+                <img src="../images/Google Podcast1.png" alt="">
+                <img src="../images/Spotify2.png" alt="">
+                <img src="../images/Youtube2.png" alt="">
+              </div>
+            </div>
+            <div>
+              <p>App available on:</p>
+              <div>
+                <img src="../images/app_store.png" alt="">
+                <img src="../images/google_play.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="HR3">
+        <div class="line AlternatesFont">
+          <div class="Reserved">
+            <p>©2022. All Rights Reserved.</p>
+            <p style="color:rgb(205,70,49);">Pod of Cast</p>
+          </div>
+          <p>Terms • Privacy</p>
+        </div>
+      </footer>
       <script src="about.js"></script>
   </body>
