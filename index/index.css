@@ -107,11 +107,11 @@ a{
 .secondContainer{
     background-color:rgb(247,237,232);
     padding-bottom: 100px;
+    overflow: hidden;
 }
-.slider{
+#slider{
     display: flex;
     gap:20px;
-    overflow-x: hidden;
     padding-left: 50px;
 }
 .sliderButtons{
